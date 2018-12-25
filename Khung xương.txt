@@ -1,0 +1,105 @@
+Tài liệu đặc tả yêu cầu
+1. Giới thiệu
+2. Tổng quan phần mềm
+3. Phân tích quy trình nghiệp vụ
+4. Yêu cầu chức năng của phần mềm
+5. Các yêu cầu khác (phi chức năng)
+6. Tiêu chuẩn nghiệm thu phần mềm
+
+Tài liệu thiết kế phần mềm
+1. Giới thiệu
+1.1 Mục đích tài liệu
+1.2 Phạm vi tài liệu
+1.3 Thuật ngữ và các từ viết tắt
+1.4 Tài liệu tham khảo
+1.5 Mô tả tài liệu
+2. Tổng quan phần mềm
+3. Thiết kê kiến trúc
+3.1 Mô hình kiến trúc
+3.2 Mô tả kiến trúc
+4. Thiết kế cơ sở dữ liệu
+4.1 Mô tả dữ liệu
+4.2 Từ điển dữ liệu
+5. Thiết kế các thành phần (component)
+6. User interface (giao diện người dùng)
+6.1 Mô tả tổng quan
+6.2 Hình ảnh giao diện
+6.3 Các đối tượng giao diện và hoạt động đi kèm
+
+5. Use case (các trường hợp sử dụng)
+7. Yêu cầu phần mềm (package, class, function): sắp xếp, nhóm, đặt tên gợi nhớ...
+8. Test case (các trường hợp kiểm thử)
+
+
+Mục lục sách:
+Chapter 1.Writing a Program : 18
+Chapter 2. Building a System: 37
+Chapter 3. Engineering of software :55
+Chapter 4. Software Process Models :71
+Chapter 5. New and Emerging Process Methodologies 97
+- Các mô hình tiến trình phần mềm thịnh hành
+Chapter 6. Requirements Engineering :117
+Chapter 7. Design: Architecture and Methodology :143
+Chapter 8. Design Characteristics and Metrics :178
+Chapter 9. Implementation :200
+Chapter 10. Testing:212
+Chapter 11. Configuation Management, Integration, and Builds :240
+- Quản lý cấu hình, tích hợp và xây dựng chương trình chạy
+Chapter 12. Software Support and Maintenance  :259
+- Hỗ trợ và bảo trì phần mềm
+Chapter 13.Software Project Management:274
+-  Quản lý dự án phần mềm
+Chapter 14:304
+Ví dụ: 311
+Chú giải: 324
+
+Hướng dẫn ôn thi
+Lý thuyết + Thực hành
+Thực hành: Hoàn thiện hết những bài đã làm
++ Use case: mô tả chi tiết yêu cầu chức năng  ###
++ Architecture ###
++ Thiết kế database  ###
++ User interface   ##
++ Lập trình, Implementation  #
++ Test ###
++ Yêu cầu chức năng, phi chức năng ##
+
+Làm ít nhưng chất lượng. 5 - 6 use case
+
+Components and relation
+   /                  \
+  /                    \
+hardware             software
+                    /         \
+                   /           \
+               logic           physical
+      (package, class,         (lib, exe files, data of files)
+         function)  
+Yêu cầu logic software
+Hardware: Phần mềm của em định chạy trên ổ cứng như thế nào
+Mô hình chạy phân tán hay tập trung, có thể chạy trên nhiều máy hay một máy.
+Trước khi học và sau khi học thì lập trình của em có gì thay đổi ko?
+Nếu không thì incrementation 0đ.
+Nói về chương trình của em có thể làm người dùng dễ đọc, dễ hiểu
+Trong quá trình có thể ghi lại comment coding error
+Ưu điểm của lập trình hướng đối tượng, hiểu về lập trình hđt
+Coding stardards: chuẩn về đọc tên, chuẩn về chú thích,...
+Information Hiding: đã dùng kỹ thuật này ntn?
+Đã áp dụng các programming practices như thế nào?
+Mô hình lập trình tăng dần (có mô hình lập trình tăng dần ko?)
++ an incremental coding process
+Có áp dụng mô hình hướng kiểm thử hay không?
+Có áp dụng mô hình pair programming hay không?
+Có sử dụng các công cụ để quản lý code không?
+Đã áp dụng code inspections như thế nào?
+
+Đã chọn lập trình hướng đối tượng hay hướng cấu trúc?
+Ưu điểm?
+
+Phần bài tập
+Use case model
+System architechture
+Database design
+User interface design
+Implementation
+Testing documents: Test scenerios, Test case
